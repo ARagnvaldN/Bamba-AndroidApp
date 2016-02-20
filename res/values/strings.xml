@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BambaApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="recipes_button">Recipes</string>
+    <string name="shoplist_button">Shopping list</string>
+    <string name="scan_button">QR Scan</string>
+    <string name="welcome_text">Välkommen till Bamba!</string>
+    <string name="recept_btn">Recept</string>
+    <string name="shoppinglist_btn">Matlista</string>
+    <string name="ingredients_btn">Ingredienser</string>
+    <string name="scan_btn">Skanna QR</string>
+    <string name="statistics_btn">Statistik</string>
+    <string name="settings_btn">Inställningar</string>
+    <string name="finished_btn">Klar</string>
+    <string name="empty">Matlistan är tom.</string>
+    <string name="title_activity_recipe_list">Recept</string>
+    <string name="title_activity_recipe">Recept</string>
+    <string name="recipe_add_btn">Lägg till</string>
+    <string name="recipe_favorite_btn">Favorit</string>
+    <string name="title_activity_ingredient">IngredientActivity</string>
+    <string name="qr_info_viewfinder">Placera qr taggen i mitten av sökaren.</string>
+    <string name="most_frequent_item">Mest förekommande artikel på inköpslistan</string>
+    <string name="mean_days_between_shopping">Medel dagar mellan inköp:</string>
+
+</resources>

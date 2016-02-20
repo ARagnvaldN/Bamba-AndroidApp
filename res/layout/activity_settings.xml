@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+	   android:summary="Inställningar för recept."
+	   android:title="Recept" >
+   
+	  <ListPreference
+	     android:entries="@array/portions"
+	     android:entryValues="@array/valueOfPortions"
+	     android:key="portions"
+	     android:summary="Välj standard antal portioner för recept."
+	     android:title="Antal portioner"
+	     android:defaultValue="4" />
+  
+ 	</PreferenceCategory>
+ 	<!--
+    <PreferenceCategory
+	   android:summary="Inställningar för matlistan."
+	   android:title="Matlista" >
+   
+	  <ListPreference
+	     android:entries="@array/placements"
+	     android:entryValues="@array/valueOfPlacements"
+	     android:key="placements"
+	     android:summary="Välj utformning av din mataffär."
+	     android:title="Placering av varor."
+	     android:defaultValue="0" />
+  
+ 	</PreferenceCategory>
+  	-->
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <TextView android:id="@+id/ingredient_item_name"
+        		android:layout_width="140dip"
+        		android:layout_height="30dip"
+        		android:layout_marginLeft="5dp"
+        		android:layout_alignParentTop="true"
+        		android:textSize="24sp"
+        		android:textStyle="bold"/>
+    
+    <TextView android:id="@+id/ingredient_item_desc"
+        		android:layout_width="140dip"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="5dp"
+        		android:layout_below="@+id/ingredient_item_name"/>
+    
+    <EditText android:id="@+id/ingredient_item_quantity"
+        		android:inputType="numberDecimal"
+        		android:layout_toLeftOf="@+id/ingredient_item_unit"
+        		android:layout_width="50dip"
+        		android:layout_height="50dip"
+        		android:textSize="16sp"
+        		android:hint="0.00"
+        		android:layout_centerVertical="true"/>
+    
+    <TextView android:id="@+id/ingredient_item_unit"
+        		android:layout_toLeftOf="@+id/ingredient_item_add"
+        		android:layout_width="wrap_content"
+        		android:layout_marginRight="5dp"
+        		android:layout_height="30dip"
+        		android:textSize="16sp"
+        		android:layout_centerVertical="true"/>
+    
+    <Button android:id="@+id/ingredient_item_add"
+       		android:layout_alignParentRight="true"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:text="+" />
+
+    
+</RelativeLayout>
